@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Delight</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        header {
+            background: #6f4f28;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        nav ul li a:hover{
+            background-color: #fff;
+            color: #6f4f28;
+            border-radius: 5px;
+        }
+
+        .hero {
+            background: url('coffee-beans.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #6d0c0c;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .menu {
+            padding: 20px;
+            text-align: center;
+        }
+        .menu h2 {
+            margin-bottom: 20px;
+        }
+        .menu-item {
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 15px;
+            display: inline-block;
+            width: calc(33% - 40px);
+        }
+        .menu-item h3 {
+            margin: 0;
+        }
+        .menu-item p {
+            font-size: 0.9em;
+            color: #666;
+        }
+        footer {
+            background: #6f4f28;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Café Delight</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Welcome to Café Delight!</h2>
+    </section>
+    <section class="menu" id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <h3>Espresso</h3>
+            <p>A strong, rich coffee with a bold flavor.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Cappuccino</h3>
+            <p>A perfect blend of espresso, steamed milk, and frothy foam.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Latte</h3>
+            <p>Espresso mixed with creamy steamed milk and a touch of foam.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Café Delight | 123 Coffee Lane, Brewtown</p>
+    </footer>
+</body>
+</html>
